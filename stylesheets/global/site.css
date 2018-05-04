@@ -1,7 +1,7 @@
-@import url(vendor/reset.css);
-@import url(vendor/pure-css.min.css);
-@import url(vendor/pure-css-grids-responsive.min.css);
-@import url(components/input.css);
+@import url(../vendor/reset.css);
+@import url(../vendor/pure-css.min.css);
+@import url(../vendor/pure-css-grids-responsive.min.css);
+@import url(../components/input.css);
 @import url(header.css);
 @import url(footer.css);
 body {
