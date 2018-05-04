@@ -1,0 +1,19 @@
+@import url(vendor/reset.css);
+@import url(vendor/pure-css.min.css);
+@import url(vendor/pure-css-grids-responsive.min.css);
+@import url(components/input.css);
+@import url(header.css);
+@import url(footer.css);
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" " main " "footer"; }
+  body #header {
+    grid-area: header; }
+  body #main {
+    grid-area: main; }
+  body #footer {
+    grid-area: footer; }

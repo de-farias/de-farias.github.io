@@ -1,0 +1,55 @@
+input.input {
+  height: 36px; }
+
+textarea.input {
+  height: auto; }
+
+input.input, textarea.input {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  color: #555;
+  display: block;
+  border-radius: 0 !important;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0 !important;
+  padding: 6px 12px;
+  width: 100%;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s; }
+
+label {
+  display: block;
+  padding-bottom: 6px; }
+  label:not(:first-of-type) {
+    padding-top: 12px; }
+
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  witdh: 100%; }
+  .input-group span {
+    width: 24px;
+    font-size: 16px;
+    padding: 10px 14px;
+    background-color: #8e8e8e;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.085);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.085); }
